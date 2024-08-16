@@ -1,0 +1,12 @@
+POST http://localhost:8080/signUp
+Content-Type: application/json
+
+{
+    "fname": "Hatem",
+    "lname": "Mohammed",
+    "email": "admin@gmail.com", 
+    "phoneNum": "01117766693" ,
+    "pass": "admin",
+    "role":"admin"
+    
+}

@@ -1,0 +1,23 @@
+POST http://localhost:8080/property/addProperty
+Content-Type: application/json
+
+{
+    "propertyType": "Sale",
+    "propertyName":"Villa Fun",
+    "price": 2000000,
+    "location": "Appartement 20/50", 
+    "compound": "Marina" ,
+    "numBeds": 5,
+    "numShower":2,
+    "coverImgUrl": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "imagesUrl":[
+    "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "view":"Sea View",
+    "measure": 750,
+    "description": "Experience the comfort and serenity of this spacious 4-bedroom apartment available for rent in the sought-after Nivida Compound. Ideal for families or individuals needing extra space, this apartment features four generously sized bedrooms that provide ample privacy and relaxation. The modern design includes two sleek showers for convenience, and the apartment boasts stunning garden views, allowing you to enjoy lush greenery right from your window. Located in the peaceful Nivida Compound, you'll enjoy a tranquil living environment while still being close to essential amenities and services. This apartment offers the perfect blend of modern living and natural beauty. Contact us today to schedule a viewing and make this your new home!",
+    "featured": true
+    
+}

@@ -1,0 +1,11 @@
+POST http://localhost:8080/appointment/bookApp
+Content-Type: application/json
+
+{
+    "userId": "66a7e48287b45541b8fb52f3",
+    "startDate": "2024/10/27",
+    "endDate": "2024/10/29",
+    "propertyId":"66ae27d7e0652068d8977508",
+    "bookedBy":"user",
+    "status":"pending"
+}
